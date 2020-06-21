@@ -9,7 +9,7 @@ int main(){
      
     cout<< "ingrese la cantidad de empleados"<< endl;
     cin>>n;
-    for (int i = 0; i < n;i++)
+    for (int i = 0; i < n;i++)45
     {
      
     
