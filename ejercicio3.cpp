@@ -17,9 +17,12 @@ int main(){
 	cout<<"ingrese c:\n";
 	cin>>c;
 	
-	float x1 = ((-1*b+(sqrt((pow(b,2)-4*a*b))))/(2*a));
-	float x2 = ((-1*b-(sqrt((pow(b,2)-4*a*b))))/(2*a));
 	
-	cout<< "x1 vale:" <<x1;
-	cout<< "x2 vale:" << x2;
+	float x1 = ((-1*b+(sqrt((pow(b,2)-(4*a*c)))))/(2*a));
+	float x2 = ((-1*b-(sqrt((pow(b,2)-(4*a*c)))))/(2*a));
+	
+	cout<< "x1 vale:" <<x1<<endl;
+	cout<< "x2 vale:" << x2<< endl;
+
+	return 0;
 	}
