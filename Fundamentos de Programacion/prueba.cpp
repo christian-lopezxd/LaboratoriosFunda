@@ -115,9 +115,6 @@ void desplegarContenido(costoPorArticulo art[], int cantidad){
 }
 
 float valorTotalCompra(costoPorArticulo art[], int cantidad){
-    /*Para esta igual se recorre el arreglo con un for y solo debes crear una variable float donde se guarde
-    la suma de todos los costoPorArticulo con +=. Como total += art[i].costoPorArticulo
-    */
 
    float totalapagar;
     for (int i = 0; i < cantidad; i++)
